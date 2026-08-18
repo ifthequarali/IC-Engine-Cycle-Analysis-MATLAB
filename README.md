@@ -63,3 +63,14 @@ fprintf('Otto Cycle Efficiency  : %.2f%%\n', eta_otto);
 fprintf('Diesel Cycle Efficiency: %.2f%%\n', eta_diesel);
 fprintf('Otto Net Work Output   : %.2f kJ/kg\n', Wnet_otto);
 fprintf('Otto MEP               : %.2f kPa\n', mep_otto);
+## Visualizations
+
+### Otto vs. Diesel Efficiency
+<p align="center">
+  <img src="images/efficiency_plot.png" width="80%" alt="Efficiency vs Compression Ratio" />
+</p>
+
+### Cycle P-V Diagram
+<p align="center">
+  <img src="images/pv_diagram.png" width="80%" alt="P-V Diagram" />
+</p>
